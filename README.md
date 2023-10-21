@@ -56,4 +56,4 @@ Se você utilizar recursos deste repositório em sua pesquisa, considere citar a
 
 # 📮 Contato
 
-Para dúvidas ou sugestões, sinta-se à vontade para abrir uma issue ou entrar em contato pelo e-mail: eng.jcfneto@email.com.
+Para dúvidas ou sugestões, sinta-se à vontade para abrir uma issue ou entrar em contato pelo e-mail: eng.jcfneto@email.com...
