@@ -1,0 +1,547 @@
+[
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "excelente produto ótima entrega foi entregue em 2 dias e o prazo era 6 parabens",
+        "output": "produto\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Atendeu a minha expectativa, qualidade de imagem e som bons, claro que levando em consideração o custo benefício... Em relação a conexão com a internet, por enquanto rodando bem, e ela está instalada no meu terraço, e o roteador dentro da minha residencia SATISFEITO!",
+        "output": "qualidade de imagem\nsom"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "O único ponto negativo é o Áudio da TV, pois não é muito bom. Quando coloca em determinada altura o som parece ter ruídos. A imagem é boa e conecta facilmente na internet.",
+        "output": "áudio\náudio\nsom\nimagem"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "O som desta smart tevê Samsung é horrível! Parece um rádio de pilha antigo. O som é muito agudo e não tem opção de deixar mais grave. Creio que o problema é com a tamanho 32”, pois tenho outras maiores da mesma marca que não são assim. Comprei pelo site e só fui instalar uma semana depois. Fui depois em lojas físicas para saber se outras também são assim e a decepção foi enorme: todas as de 32” são assim. O som chega a doer os ouvidos. Além de ser baixo volume, se você aumentar o som a tevê começa a vibrar o plástico leve que é feito. Infelizmente só vi os comentários ruins sobre esta smart tevê depois, pois pensava que não teria como a Samsung fazer algo tão sem qualidade. Pesquise outras marcas para uma smart tevê de 32”. Tem outras com som muito bom e com melhor preço. Conselho: Esqueça que esta existe!",
+        "output": "som\nsom\nsom"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Produto Não Deixa nada a desejar, exelente, gostei em ter comprado nas Américanas. Entrega no prazo, perfeito, estão de parabéns.",
+        "output": "produto\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Muito bom a entrega foi bem antes do prazo estipulado e produto foi excelente.",
+        "output": "entrega\nproduto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Comprei esta TV para meu escritório para apresentar meus projetos 3D de residências e interiores para meus clientes, porém ela apresenta pixels muito grandes, fazendo com que a imagem perca definição, ficando com aspecto serrilhado. Não gostei e estou decepcionado com o produto! Se eu pudesse, trocaria este produto!",
+        "output": "imagem\nproduto\nproduto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Recomendo o produto supriu as minhas necessidades e as Lojas Americanas com entrega antes do prazo.",
+        "output": "produto\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Os televisores da sangsung não possuem bom áudio e algumas televisões depois de algum tempo apresentam listas verticais na tela. Hoje eu compraria televisores de outras marcas.",
+        "output": "áudio\ntela"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "A TV muito boa recebi antes do Prazo as americanas nunca decepciona",
+        "output": "tv"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Adorei a qualidade da Tv, fácil estalação. Recomendo com certeza.",
+        "output": "tv\nestalação"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "A MINHA CHEGOU ONTEM, TESTEI SMART, TUDO OK, ASSISTI VARIOS FILMES E VIDEOS NO YOTUBE, NAO TRAVOU EM NENHUM MOMENTO, A UNICA COISA QUE NAO GOSTEI E QUE PRECISA DE ANTENA OU CABO PARA PEGAR A TV, E NAO VEIO OS PARAFUSOS PARA FIXAR O PE, MAS DEI UM JEITO, DO RESTO E MUITO BOA SIM, DEPENDE DA SUA INTERNET PARA SER RAPIDA!!",
+        "output": ""
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Prazo de entrega antecipado pelo o que foi previsto, e produto de excelente qualidade!",
+        "output": "prazo de entrega\nproduto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Comprei para embutir no armário do quarto da minha filha. Excelente produto. Navegador fácil e ótimo acesso à internet, em especial à Netflix e You Tube. Ótimos recursos.",
+        "output": "produto\nnavegador\nacesso à internet\nrecursos"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Todas as funções descritas funcionam mesmo, wi-fi, smartv (netflix, youtube). Não é das tvs mais rápidas, mas nada que incomode. Sobre o atendimento e rapidez do submarino, os caras praticamente teletransporta seu produto até a sua casa, entrega com 48 horas, e me deram 11 dias uteis.",
+        "output": "wi-fi\nsmartv\nentrega"
+    },
+        {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Gostei muito da tv, já tinha uma e resolvi comprar mais uma devido a qualidade do produto, chegou antes do prazo.",
+        "output": "tv"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Já havia pesquisando muito sobre a tv e realmente é muito boa. Só um pouco lenta. Mas devido o preço não é de esperar tanta velocidade. O som já sabia que não era tão alto, mas é bom. Só espero que dure bastante. Podem comprar.",
+        "output": "tv\nsom\nsom"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "gostei muito do produto e da agilidade que vcs entregou",
+        "output": "produto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Indico o produto para todos e o atendimento das Americanas de excelente garantia.",
+        "output": "produto\ngarantia"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Muito bom. Adorei poder acessar a internet pela TV. O tamanho é bom. A única coisa inconveniente é que ela é com fonte (como se fosse computador), então o consumo de energia é maior que uma tv comum. O resto é 10.",
+        "output": "tamanho\nfonte\nconsumo de energia"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Excelente compra, o produto e muito bom e a entrega foi bem rápida, bem antes do prazo. Bastante satisfeito.",
+        "output": "produto\nentrega\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "excelente produto, de acordo com a descrição que a loja fez referencia",
+        "output": "produto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "TV Smart com alta tecnologia com conexão internet, redes sociais e outros. recomendo",
+        "output": ""
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "O produto é muito bom, porém o som é muito baixo e infelizmente não é Full HD. Porém para o valor, é um dos melhores custo benefícios.",
+        "output": "produto\nsom\ncusto benefícios"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Produto inteligente, ativado automaticamente via internet, facilita toda a programação do aparelho.",
+        "output": "produto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "A melhor,pode confiar .Para ver a copa melhor, vá com a Samsung",
+        "output": ""
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Comprei no domingo, recebi na quinta, excelente produto. Mto bom...",
+        "output": "produto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Excelente aparelho, tv fina e muito leve, entrega super no prazo",
+        "output": "aparelho\ntv\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Tv perfeita para quartos. Tamanho excelente, visão limpa, som de qualidade e por ser smart é ainda melhor. Funciona muitos apps, o que eu mais uso é o netflix. Lojas americanas entregou muito antes do prazo. Meus parabéns!!! Farei outras compras e indicarei para muitos amigos.",
+        "output": "tv\ntamanho\nvisão\nsom\nsmart\napps"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Adorei a TV. Imagem e som perfeitos. Me atendeu em tudo. Parabéns.",
+        "output": "tv\nimagem\nsom"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Satisfeito com o produto e com o atendimento e entrega da Americanas.com.",
+        "output": "produto\natendimento\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Bonita, moderna, imagem linda essa TV! Podem comprar pois super recomendo, além do mais tenho boas experiências com os produtos da sansung, parabenizo as americanas pela rapidez na entrega foi tudo ótimo sem nem um transtorno apenas comodidade.",
+        "output": "imagem\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "gostei muito do produto porque o mesmo apresenta recursos interessante como por exemplo netflyx.",
+        "output": "produto\nrecursos"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Produto muito bom! Entrega rapida e garantia de entrega pelo submarino.",
+        "output": "produto\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "cumpre tudo o que promete, ótimo custo beneficio, recomendaria com certeza",
+        "output": "custo beneficio"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Gostei bastante da TV. Só que é um pouco lenta para o acesso a internet.",
+        "output": "tv\nacesso a internet"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Entrega nota 10. Imagem 10 som 10. Perfeita estou mutissimo satisfeita",
+        "output": "entrega\nimagem\nsom"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "O produto Samsung é excelente e difícil dar algum problema e muito bom",
+        "output": "produto samsung"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Recomendo, foi tudo perfeito como eu esperava, tanto a loja como o ar condicionado, tudo otimo, por isso q compro nas Americanas,",
+        "output": ""
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "A TV e boa qualidade tbm porém existe um bug que não identifiquei se e do youtudo app ou da tv as vezes ao tentar conectar o celular com o YouTube não funciona e vc tem que fazer algumas tentativas pra conectar... Se alguem notou esse problema tbm deixem seu comentários.",
+        "output": "tv\ntv"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Produto de boa qualidade, recomendo.!!! Obs: O audio é baixo.!!!!! Fica a dica!!!",
+        "output": "produto\naudio"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "O produto atendeu quase todas as minhas expectativas, exceto a posição do cabo hdmi que fica atrás da tv e não na lateral, como outros modelos, e como ela fica pendurada no painel, não consigo fazer a ligação do cabo hdmi na tv interligado ao pc.",
+        "output": "produto\ncabo hdmi"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Gostei muito,atendeu minhas expectativa,foi colocada no quarto de hóspede.Estão adorando!",
+        "output": ""
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Funciona muito bem! É muito leve e bonita! Produto excelente!",
+        "output": "produto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Imagem de qualidade tudo muito bom, mas o som, não presta, tive que comprar um soundbar samsung para ter uma qualidade boa.",
+        "output": "imagem\nsom"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Infelizmente, não encontrei nenhuma Smart TV 32\"\" com resolução Full HD ( 1080p ). O som é bom.",
+        "output": "som"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Muito bom. Só demora 1 min para entrar na smart. Mas imagem ótima.",
+        "output": "smart\nimagem"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Indico para quem quiser uma Smart TV de muita qualidade e bem leve",
+        "output": "smart tv"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "A TV ´excelente, aplicativos ótimos, funcionando perfeitamente. E a Americanas como sempre, sem deixar a desejar, entrega super rápida, bem antes do prazo, e o produto chegou impecável. E ainda tem a praticidade de acompanhar o passo a passo da entrega pelo site. Recomendo muito!!!!!!",
+        "output": "tv\naplicativos\nentrega\nproduto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "era o que esperava do produto... abraço abraço abraço abraço abraço!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "output": "produto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "O modelo da televisão já não tem mais o spotify, e a TV abaixa o volume sozinha entre uma música e outra quando no app do Youtube pelo Smarthub. Do restante nada a reclamar, cumpre com as expectativas.",
+        "output": "spotify"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "BOM DIA! ATÉ AGORA NÃO ME ARREPENDI DE TER ADQUIRIDO ESSA TV. IMAGEM ÓTIMA,RESOLUÇÃO MARAVILHOSA ATENDEU AS MINHAS EXPECTATIVAS,RECOMENDO,ENTREGA DENTRO DO PRAZO.",
+        "output": "imagem\nresolução\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Produto muito bom super satisfeita super recomendo chegou bem rápido e até antes do prazo.",
+        "output": "produto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Gostei muito. Atendeu minhas expectativas. Chegou bem antes do prometido.",
+        "output": ""
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "A entrega foi super rápida, chegou em menos de uma semana. Mas o produto deixa um pouco a desejar, achei que por ser SAMSUNG estaria fazendo uma boa compra, mas ela trava bastante, as vezes nem reconhece o comando para ligar, ou aumentar o volume, quando entra no youtube ela abaixa o volume sozinha... Pensei que o problema era a minha, iria até atras da assistência, mas conversei com amigos que também tem e disseram a mesma coisa, TRAVA BASTANTE, E AS VEZES NÃO RECONHECE OS COMANDOS DO CONTROLE, OU DEMORA MUITO PARA RECONHECER.",
+        "output": "entrega\nproduto\ncomandos do controle"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Excelente produto.Fácil de sintonizar e cheio de opções com o sistema smart . Adoooooooro.",
+        "output": "produto\nsistema smart"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "a TELEVISÃO DISPENSA COMENTARIOS. Excelente. Compro do Submarino há muito tempo. Estou muito satisfeito. Inclusive quanto a utilização do Cartao. Obrigado;",
+        "output": "televisão"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Boa imagem, bonita, leve, porém, o som é ruim, processador um pouco lento na função smart.",
+        "output": "imagem\nsom\nprocessador"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Bom eu sou suspeito para avaliar a marrca SAmsung ela já é minha parceira a mais de 20 anos, todos os televisores e monitores que eu possuo são dessas marcas, pois com certeza é o melhor custo benefício do mercado. E essa TV não é diferente, excelente, fácil de usar e instalar, com explicações rápidas e fáceis um e-manual fantástico que resolver todos os problemas iniciais, uma imagem maravilhosa, se você quer uma TV e não quer se preocupar com instalação manutenção e outras coisas compre SAMSUNG",
+        "output": "custo benefício\ntv\nusar\ninstalar\nexplicações\ne-manual\nimagem"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Gostei muito do produto , e parabenizo também o atendimento do Shoptime , entrega rápida, superou minhas expectativas!",
+        "output": "produto\natendimento\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Muito boa esta televisão... facil de programar e muito eficiente. Atendeu as minhas expectativas.",
+        "output": "televisão\nprogramar"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Facil de manusear. Otima para assistir filmes no telecineplay. Tv muito bom em imagem e som",
+        "output": "imagem\nsom"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Gostei muito do produto. E a entrega rápida. Parabéns Submarino",
+        "output": "produto\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Um ótimo produto, entrega super rápida chegou em 5 dias, até agora não tive problemas espero não ter, só o som que deixa um pouco a desejar, mas é muito boa!",
+        "output": "produto\nentrega\nsom"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "produto muito bom, atendeu minha expectativa para o quarto de minha filha. instalação da smart tv sem complicações, recomendo o produto.",
+        "output": "produto\ninstalação\nproduto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Entrega rápida e ótimo produto. Só não consegui assistir a canais sem antena.",
+        "output": "entrega\nproduto\ncanais"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Muito fácil de mexer, chegou com o tempo previsto, leve e linda!!!!",
+        "output": ""
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Excelente imagem e muito boa conectividade wifi, fácil instalação e configuração.",
+        "output": "imagem\nconectividade wifi\ninstalação\nconfiguração"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Além de ser um super produto, o mesmo foi entregue em 6 dias corridos sendo que o prazo era de 39 dias úteis. Super recomendo. Loja Americanas Melhor Loja ❤❤",
+        "output": "produto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "A televisão é ótima. É minha primeira smart, então não tenho como comparar e saber se todas são do mesmo jeito, mas para você acessar o Hub (aplicativos) precisa esperar um pouco após ligar, pq senão fica aparecendo a mensagem que a televisão está sendo preparada e eu estava achando que o problema era na minha internet. E a entrega muito rápida também.",
+        "output": "televisão\nhub\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Ótima TV, para um quarto é perfeita. Smart funciona muito bem.",
+        "output": "tv\nsmart"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "PRODUTO EXCELENTE, CHEGOU MUITO RÁPIDO. ATINGIU TODAS AS MINHAS EXPECTATIVAS. SUPER RECOMENDO.",
+        "output": "produto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "gostei muito.. tv muito boa, entrega muito rapida como sempre;;;;;;",
+        "output": "tv\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "exelente qualidade muito boa otimo preços foi o lugar mais que encontrei na americana entrega super rapida muito satisfeita nota mil",
+        "output": "preços\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "imagem 100% digital, proporções adequadas para aparelho eu recomendo a todos que se querem ter um aparelho de verdade com nas lojas Americanas excelentes produtos e marcas.",
+        "output": "imagem\nproporções\nprodutos\nmarcas"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Bom produto e entregar rápida do não acho que devo ficar escrevendo um texto gigante para pode avaliar o produto, espero que na próxima compra não venha me obrigando a faculdade ficar fazendo uma redação para avaliação um produto.",
+        "output": "produto\nentregar"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Produto com excelente desing alta definição de imagem e som.",
+        "output": "desing\ndefinição\nimagem\nsom"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Adorei o produto. Podem comprar sem medo. Fiquei muito feliz com este produto e doi entregue dentro do prazo estabelecido.",
+        "output": "produto\nproduto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Qualidade não tem igual, muito bom. Acabamento fino e recursos incríveis, principalmente o recurso futebol. Entrega super rápida pela Americanas. Obrigado.",
+        "output": "acabamento\nrecursos\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Excelente produto, além de ser leve e de fácil manuseio, tem uma imagem muito boa e é perfeita para o que preciso. Recomendo!!",
+        "output": "produto\nmanuseio\nimagem"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Amei minha tv, ela é maravilhosa, além da entrega do submarino ser super rápida!",
+        "output": "tv\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Muito bom produto principalmente ao instalar no quarto onde a tela é muito nitida e com cores vivas.",
+        "output": "produto\ntela"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Excelentes imagens, em momentos de muita movimentação, sua frequência de imagem melhora a qualidade. Cores vivas.",
+        "output": "imagens\nfrequência de imagem\ncores"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Produto com custo/ benefício muito bom, de fácil manuseio, excedendo a minha expectativa.",
+        "output": "custo/ benefício\nmanuseio"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Bom produto. Porém, os aplicativos como a globo play devem ser baixados não vem na tv.",
+        "output": "produto\naplicativos"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "As tvs Samsung vem com vicio o culto. Liga e desliga sem para. A sua vai durar no máximo um ano e começa o problema, aí voce já não tem mais garantia e fica no prejuiso. Arrependimento eterno!",
+        "output": ""
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Qualidade do som péssima, menu lento trava toda hora, não conecta no wi fi, produto muito abaixo do esperado, me decepcionei com a Samsung, não recomendo.",
+        "output": "som\nmenu\nwi fi\nproduto\nsamsung"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Produto maravilhoso, superou minhas expectativas, a entrega foi rápida, adorei!!",
+        "output": "produto\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Comprei uma tv Samsung justamente pela força da marca e quando recebi o produto fiquei decepcionada. O som estoura mesmo em níveis baixos-médios e os após do smarthub travam muito, sendo necessário reiniciar a tv varias vezes.",
+        "output": "produto\nsom\nsmarthub"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Corresponde a todas as expectativas, tanto o produto quanto o tempo de entrega do produto realizado antes do prazo previsto.",
+        "output": "produto\ntempo de entrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Somente o som deixou um pouco a desejar, mas no mais tudo certo",
+        "output": "som"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "tudo de bom adorei boa imagem exelente audio !!! super recomendo",
+        "output": "imagem\naudio"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Otimo produto, e entrega super rapida. Submarino esta de parabens, recomendo a todos.",
+        "output": "produto\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "um bom produto satisfaz as minhas necessidades a entrega foi bem rapida",
+        "output": "produto\nproduto\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "O produto é maravilhoso e o atendimento Submarino também. Recebi e-mails diariamente informando a situação da entrega e recebi muito antes do esperado, mesmo com feriados de Natal e Ano Novo. Fiquei muito satisfeita. Recomendo!!!",
+        "output": "produto"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Muito boa a TV e a entrega bem antes do combinado.",
+        "output": "tv\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "ótimo produto. Comprei essa televisão e a imagem dela surpreendeu bastante.",
+        "output": "produto\nimagem"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Atendeu minhas expectativas, desde que compro nuca fiquei desapontada com meus pedidos.",
+        "output": ""
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Então ate o exato momento a TV esta sendo ótima boa nos aplicativos navegação designer",
+        "output": "tv\naplicativos\nnavegação\ndesigner"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Recomendo de todos olhos fechados, produto excelente de boa qualidade e entrega no prazo.",
+        "output": "produto\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "A tv é boa realmente, porém não é igual um 46 polegadas, tenho outra 46 e o sistema é bem rapido, e o dessa é um pouco devagar nada que atrapalhe, a imagem é bem boa, chegou antes do prazo dado pelas americanas.",
+        "output": "tv\nsistema\nimagem"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "o produto é muito bom realmente, vai de encontro as expectativas, penso apenas que a configuração de tela deixa um pouco a desejar, mas fora isso é muito bom, o som tem uma potencia interessante, a resposta no meno para conexões com a internet é rápida, porem, tudo que for conectar inicialmente esta desatualizado, netflix, youtube, o que for, fora isso recomendo sim.",
+        "output": "produto\nconfiguração de tela\nsom\nconexões com a internet"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Tem um ótimo custo-benefício uma pena não ser full HD!",
+        "output": "custo-benefício"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Como tenho uma, resolvi comprar outra da mesma marca. Recomendo. Fácil instalação. Sem problemas com frete.",
+        "output": "instalação\nfrete"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Fácil de configurar, ótima imagem e belo acabamento. O único ponto negativo é que o processo de atualização da TV agora precisa ser manual, o que dá algum trabalho. Mas no geral é um ótimo aparelho.",
+        "output": "imagem\nacabamento\nprocesso de atualização\naparelho"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Uma televisão Boa para o tamanho, a função smart hub é boa mais peca em termos de velocidade, tirando isso so faltou o 3d mesmo!",
+        "output": "televisão\nfunção smart hub\n3d"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "adorei meus produtos e como sempre chegou antes do prazo previsto.",
+        "output": "produtos"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Bom produto, entrega rápida chegou antes do prazo atende expectativas!",
+        "output": "produto\nentrega"
+    },
+    {
+        "instruction": "Qual o(s) aspecto(S) explícito(s) da frase a seguir?",
+        "input": "Entrega rapida... Produto leve e samsung, que diz tudo.. Indico. Elevado custo beneficio...",
+        "output": "entrega\ncusto beneficio"
+    }
+]

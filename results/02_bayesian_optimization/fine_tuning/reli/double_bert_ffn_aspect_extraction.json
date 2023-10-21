@@ -1,0 +1,82 @@
+{
+    "trial_0": {
+        "dropout_rate": 0.5,
+        "first_layer_units": 512,
+        "second_layer_units": 512,
+        "third_layer_units": 512,
+        "learning_rate": 4.304794343404228e-05,
+        "value": 0.46891651865008876
+    },
+    "trial_1": {
+        "dropout_rate": 0.4,
+        "first_layer_units": 256,
+        "second_layer_units": 768,
+        "third_layer_units": 256,
+        "learning_rate": 0.00028631017820545567,
+        "value": 0.0
+    },
+    "trial_2": {
+        "dropout_rate": 0.2,
+        "first_layer_units": 512,
+        "second_layer_units": 512,
+        "third_layer_units": 768,
+        "learning_rate": 0.0005705367529003744,
+        "value": 0.0
+    },
+    "trial_3": {
+        "dropout_rate": 0.0,
+        "first_layer_units": 768,
+        "second_layer_units": 256,
+        "third_layer_units": null,
+        "learning_rate": 0.0001400668288752182,
+        "value": 0.32
+    },
+    "trial_4": {
+        "dropout_rate": 0.5,
+        "first_layer_units": 768,
+        "second_layer_units": 512,
+        "third_layer_units": null,
+        "learning_rate": 9.544361594232976e-05,
+        "value": 0.44904458598726116
+    },
+    "trial_5": {
+        "dropout_rate": 0.0,
+        "first_layer_units": 768,
+        "second_layer_units": 512,
+        "third_layer_units": null,
+        "learning_rate": 0.0004709340960559781,
+        "value": 0.0
+    },
+    "trial_6": {
+        "dropout_rate": 0.2,
+        "first_layer_units": 768,
+        "second_layer_units": 256,
+        "third_layer_units": 512,
+        "learning_rate": 0.0006942241655316432,
+        "value": 0.0
+    },
+    "trial_7": {
+        "dropout_rate": 0.2,
+        "first_layer_units": 256,
+        "second_layer_units": 512,
+        "third_layer_units": 512,
+        "learning_rate": 0.0007959090853082514,
+        "value": 0.0
+    },
+    "trial_8": {
+        "dropout_rate": 0.2,
+        "first_layer_units": 256,
+        "second_layer_units": 768,
+        "third_layer_units": 256,
+        "learning_rate": 0.0002606530332019702,
+        "value": 0.0
+    },
+    "trial_9": {
+        "dropout_rate": 0.0,
+        "first_layer_units": 256,
+        "second_layer_units": 512,
+        "third_layer_units": 768,
+        "learning_rate": 3.8534252343702257e-05,
+        "value": 0.4692737430167598
+    }
+}

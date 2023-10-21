@@ -1,0 +1,102 @@
+{
+    "trial_0": {
+        "dropout_rate": 0.5, 
+        "learning_rate": 0.0009940094513112535, 
+        "value": 0.0
+    }, 
+    "trial_1": {
+        "dropout_rate": 0.5, 
+        "learning_rate": 8.155539819237058e-05, 
+        "value": 0.7658730158730158
+    }, 
+    "trial_2": {
+        "dropout_rate": 0.1, 
+        "learning_rate": 0.0001034639358401092, 
+        "value": 0.7573221757322175
+    }, 
+    "trial_3": {
+        "dropout_rate": 0.1, 
+        "learning_rate": 5.3608464181076415e-05, 
+        "value": 0.7784431137724552
+    }, 
+    "trial_4": {
+        "dropout_rate": 0.1, 
+        "learning_rate": 0.00026894511603304687, 
+        "value": 0.7172675521821633
+    }, 
+    "trial_5": {
+        "dropout_rate": 0.2, 
+        "learning_rate": 0.00025652148508112827, 
+        "value": 0.7407407407407407
+    }, 
+    "trial_6": {
+        "dropout_rate": 0.1,
+        "learning_rate": 5.901554567426713e-05, 
+        "value": 0.7751937984496124
+    }, 
+    "trial_7": {
+        "dropout_rate": 0.2, 
+        "learning_rate": 0.00012355654524640104, 
+        "value": 0.7628458498023716
+    }, 
+    "trial_8": {
+        "dropout_rate": 0.2, 
+        "learning_rate": 0.00030566859163842314, 
+        "value": 0.7024952015355086
+    }, 
+    "trial_9": {
+        "dropout_rate": 0.4, 
+        "learning_rate": 7.887539816811443e-05, 
+        "value": 0.7651821862348179
+    }, 
+    "trial_10": {
+        "dropout_rate": 0.30000000000000004, 
+        "learning_rate": 2.0863364780543777e-05, 
+        "value": 0.8501026694045174
+    }, 
+    "trial_11": {
+        "dropout_rate": 0.30000000000000004, 
+        "learning_rate": 2.5867478930453555e-05, 
+        "value": 0.8463157894736842
+    }, 
+    "trial_12": {
+        "dropout_rate": 0.30000000000000004, 
+        "learning_rate": 2.1259807799119328e-05, 
+        "value": 0.8382978723404255
+    }, 
+    "trial_13": {
+        "dropout_rate": 0.30000000000000004, 
+        "learning_rate": 2.0662321319453588e-05, 
+        "value": 0.8271604938271606
+    }, 
+    "trial_14": {
+        "dropout_rate": 0.4, 
+        "learning_rate": 3.456795840000655e-05, 
+        "value": 0.8297872340425533
+    }, 
+    "trial_15": {
+        "dropout_rate": 0.4, 
+        "learning_rate": 3.356504231457358e-05, 
+        "value": 0.7692307692307692
+    }, 
+    "trial_16": {
+        "dropout_rate": 0.30000000000000004, 
+        "learning_rate": 3.3860089885899096e-05, 
+        "value": 0.8400852878464818
+    }, 
+    "trial_17": {
+        "dropout_rate": 0.4, 
+        "learning_rate": 2.1115688059352296e-05, 
+        "value": 0.8358208955223881
+    }, 
+    "trial_18": {
+        "dropout_rate": 0.2, 
+        "learning_rate": 4.4440747201327803e-05, 
+        "value": 0.8187372708757638
+    }, 
+    "trial_19": {
+        "dropout_rate": 0.30000000000000004, 
+        "learning_rate": 2.936489082488054e-05, 
+        "value": 0.8308977035490605
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "model_path": "jcfneto/bert-br-portuguese",
+  "final_loss": 2.9189,
+  "total_params": 47509248,
+  "epochs": 10,
+  "losses": {
+    "1": 6.8194,
+    "2": 5.8696,
+    "3": 4.8288,
+    "4": 4.2871,
+    "5": 3.9093,
+    "6": 3.6278,
+    "7": 3.4090,
+    "8": 3.2230,
+    "9": 3.0553,
+    "10": 2.9189
+  },
+  "config": {
+    "num_attention_heads": 4,
+    "num_hidden_layers": 6,
+    "hidden_size": 256,
+    "intermediate_size": 512,
+    "learning_rate": 0.000067,
+    "dropout": 0.1,
+    "batch_size": 8,
+    "max_epochs": 10
+  },
+  "optimizers": {
+    "name": "AdamW"
+  },
+  "callbacks": {
+    "early_stopping": {
+      "delta": 0.1,
+      "patiente": 3
+    }
+  }
+}

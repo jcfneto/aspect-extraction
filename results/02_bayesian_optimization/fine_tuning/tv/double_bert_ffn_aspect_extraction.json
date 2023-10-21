@@ -1,0 +1,161 @@
+{
+    "trial_0": {
+        "dropout_rate": 0.30000000000000004, 
+        "first_layer_units": 512, 
+        "second_layer_units": 512, 
+        "third_layer_units": 768, 
+        "learning_rate": 8.707629615397552e-05, 
+        "value": 0.7525562372188139
+    }, 
+    "trial_1": {
+        "dropout_rate": 0.2, 
+        "first_layer_units": 768, 
+        "second_layer_units": 1536, 
+        "third_layer_units": null, 
+        "learning_rate": 5.917498360501394e-05, 
+        "value": 0.8220858895705521
+    }, 
+    "trial_2": {
+        "dropout_rate": 0.4, 
+        "first_layer_units": 1536, 
+        "second_layer_units": null, 
+        "third_layer_units": 256, 
+        "learning_rate": 0.0003369476431179919, 
+        "value": 0.6777777777777778
+    }, 
+    "trial_3": {
+        "dropout_rate": 0.2, 
+        "first_layer_units": 1536, 
+        "second_layer_units": 512, 
+        "third_layer_units": 256, 
+        "learning_rate": 5.667082557529028e-05, 
+        "value": 0.8065173116089613
+    }, "trial_4": {
+        "dropout_rate": 0.1, 
+        "first_layer_units": 512, 
+        "second_layer_units": 256, 
+        "third_layer_units": 768, 
+        "learning_rate": 4.811160949106254e-05, 
+        "value": 0.73767258382643
+    }, 
+    "trial_5": {
+        "dropout_rate": 0.5, 
+        "first_layer_units": 256, 
+        "second_layer_units": 768, 
+        "third_layer_units": 256, 
+        "learning_rate": 0.0005827589570738624, 
+        "value": 0.0
+    }, 
+    "trial_6": {
+        "dropout_rate": 0.30000000000000004,
+        "first_layer_units": 768, 
+        "second_layer_units": 1536, 
+        "third_layer_units": 512, 
+        "learning_rate": 3.614998304644994e-05, 
+        "value": 0.8280254777070064
+    }, 
+    "trial_7": {
+        "dropout_rate": 0.1,
+        "first_layer_units": 512, 
+        "second_layer_units": 768, 
+        "third_layer_units": 512, 
+        "learning_rate": 0.00015557561222131892, 
+        "value": 0.7480916030534351
+    }, 
+    "trial_8": {
+        "dropout_rate": 0.5, 
+        "first_layer_units": 256, 
+        "second_layer_units": 512, 
+        "third_layer_units": 1536, 
+        "learning_rate": 0.00011925213094003008, 
+        "value": 0.7292110874200425
+    }, 
+    "trial_9": {
+        "dropout_rate": 0.5, 
+        "first_layer_units": 1536, 
+        "second_layer_units": null, 
+        "third_layer_units": 512, 
+        "learning_rate": 0.0006160495181665511, 
+        "value": 0.0
+    }, 
+    "trial_10": {
+        "dropout_rate": 0.30000000000000004, 
+        "first_layer_units": 768, 
+        "second_layer_units": 1536, 
+        "third_layer_units": 512, 
+        "learning_rate": 2.024504725260505e-05, 
+        "value": 0.7434343434343433
+    }, 
+    "trial_11": {
+        "dropout_rate": 0.2, 
+        "first_layer_units": 768, 
+        "second_layer_units": 1536, 
+        "third_layer_units": null, 
+        "learning_rate": 3.0430404141849843e-05, 
+        "value": 0.757085020242915
+    }, 
+    "trial_12": {
+        "dropout_rate": 0.2, 
+        "first_layer_units": 768, 
+        "second_layer_units": 1536, 
+        "third_layer_units": null, 
+        "learning_rate": 4.374945404808246e-05, 
+        "value": 0.8118811881188119
+    }, 
+    "trial_13": {
+        "dropout_rate": 0.4, 
+        "first_layer_units": 768, 
+        "second_layer_units": 1536, 
+        "third_layer_units": null, 
+        "learning_rate": 2.001383160164505e-05, 
+        "value": 0.830188679245283
+    }, 
+    "trial_14": {
+        "dropout_rate": 0.4, 
+        "first_layer_units": 768, 
+        "second_layer_units": 1536, 
+        "third_layer_units": 1536, 
+        "learning_rate": 2.0395686469390853e-05, 
+        "value": 0.8151093439363817
+    }, 
+    "trial_15": {
+        "dropout_rate": 0.4, 
+        "first_layer_units": 768, 
+        "second_layer_units": 256, 
+        "third_layer_units": 512, 
+        "learning_rate": 2.9493979851853295e-05, 
+        "value": 0.820408163265306
+    }, 
+    "trial_16": {
+        "dropout_rate": 0.4, 
+        "first_layer_units": 768, 
+        "second_layer_units": 1536, 
+        "third_layer_units": null, 
+        "learning_rate": 3.303593898340511e-05, 
+        "value": 0.7766599597585513
+    }, 
+    "trial_17": {
+        "dropout_rate": 0.30000000000000004, 
+        "first_layer_units": 768, 
+        "second_layer_units": 1536, 
+        "third_layer_units": 512, 
+        "learning_rate": 2.006300676202351e-05, 
+        "value": 0.8268839103869654
+    }, 
+    "trial_18": {
+        "dropout_rate": 0.30000000000000004, 
+        "first_layer_units": 256, 
+        "second_layer_units": 1536, 
+        "third_layer_units": null, 
+        "learning_rate": 7.664466476824062e-05, 
+        "value": 0.8198757763975155
+    }, 
+    "trial_19": {
+        "dropout_rate": 0.4, 
+        "first_layer_units": 768, 
+        "second_layer_units": 768, 
+        "third_layer_units": 768, 
+        "learning_rate": 3.529336752478209e-05, 
+        "value": 0.8172484599589322
+    }
+}

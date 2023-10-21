@@ -1,0 +1,16 @@
+{
+    "results": {
+        "precision": 0.586735891959713,
+        "recall": 0.6254414130363478,
+        "f1": 0.6050470534493021
+    },
+    "model_name": "neuralmind/bert-base-portuguese-cased",
+    "total_params": 108334851,
+    "embedding_dim": 768,
+    "config": {
+        "batch_size": 8,
+        "epochs": 3,
+        "dropout": 0.1,
+        "learning_rate": 2e-5
+    }
+}

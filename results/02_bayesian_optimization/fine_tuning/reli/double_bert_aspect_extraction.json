@@ -1,0 +1,52 @@
+{
+    "trial_0": {
+        "dropout_rate": 0.5,
+        "learning_rate": 0.00030931464752217183,
+        "value": 0.0
+    },
+    "trial_1": {
+        "dropout_rate": 0.0,
+        "learning_rate": 3.0151209417618514e-05,
+        "value": 0.45565749235474007
+    },
+    "trial_2": {
+        "dropout_rate": 0.4,
+        "learning_rate": 3.894194839701898e-05,
+        "value": 0.4776632302405498
+    },
+    "trial_3": {
+        "dropout_rate": 0.2,
+        "learning_rate": 0.0007812662705463988,
+        "value": 0.0
+    },
+    "trial_4": {
+        "dropout_rate": 0.2,
+        "learning_rate": 8.370364388463313e-05,
+        "value": 0.5468164794007491
+    },
+    "trial_5": {
+        "dropout_rate": 0.4,
+        "learning_rate": 0.00014018990410970768,
+        "value": 0.36413043478260865
+    },
+    "trial_6": {
+        "dropout_rate": 0.4,
+        "learning_rate": 0.0005010475771084672,
+        "value": 0.0
+    },
+    "trial_7": {
+        "dropout_rate": 0.0,
+        "learning_rate": 7.966411940208306e-05,
+        "value": 0.5373665480427048
+    },
+    "trial_8": {
+        "dropout_rate": 0.4,
+        "learning_rate": 0.0003414627736416284,
+        "value": 0.0
+    },
+    "trial_9": {
+        "dropout_raNonete": 0.5,
+        "learning_rate": 2.6417102416521368e-05,
+        "value": 0.6220735785953178
+    }
+}
