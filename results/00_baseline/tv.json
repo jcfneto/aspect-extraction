@@ -12,5 +12,6 @@
         "epochs": 3,
         "dropout": 0.3,
         "learning_rate": 2.0863364780543777e-05
-    }
+    },
+    "trainable_params": 108925443
 }
