@@ -2,6 +2,13 @@
 
 Bem-vindo ao repositório de códigos, dados e notebooks relacionados à dissertação sobre "Extração de Aspectos em Língua Portuguesa". Este repositório contém todos os recursos necessários para entender e replicar as análises e resultados descritos na dissertação.
 
+
+<img src="[https://cdn-uploads.huggingface.co/production/uploads/6385e26cc12615765caa6afe/3lSkNEfW57BNudZIFyTH2.png](https://github.com/jcfneto/aspect-extraction/assets/70823158/d41e3bb7-0296-4156-b715-148a31b17796)" width=400 height=400>
+Imagem gerada pelo ChatGPT com DALL-E da OpenAI.
+
+
+
+
 # 📖 Descrição
 O trabalho se concentra na análise e extração de aspectos em textos escritos em língua portuguesa. Os aspectos, em processamento de linguagem natural, são os pontos específicos ou características de um produto ou serviço que são mencionados em análises ou comentários.
 
