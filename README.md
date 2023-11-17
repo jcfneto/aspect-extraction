@@ -51,8 +51,8 @@ Se você utilizar recursos deste repositório em sua pesquisa, considere citar a
 ```bibtex
 # Atualizar ao final do projeto
 @misc{josecarlos2023extracao,
-  title={Extração de Aspectos em Língua Portuguesa},
-  author={Ferreira Neto, J.C},
+  title={Desenvolvimento de modelos de Linguagem para Extração de Aspectos em Língua Portuguesa},
+  author={Ferreira, José Carlos Neto},
   year={2023},
   url={https://[https://github.com/jcfneto/aspect-extraction]}
 }
@@ -60,4 +60,4 @@ Se você utilizar recursos deste repositório em sua pesquisa, considere citar a
 
 # 📮 Contato
 
-Para dúvidas ou sugestões, sinta-se à vontade para abrir uma issue ou entrar em contato pelo e-mail: eng.jcfneto@email.com...
+Para dúvidas ou sugestões, sinta-se à vontade para abrir uma issue ou entrar em contato pelo e-mail: eng.jcfneto@email.com.
