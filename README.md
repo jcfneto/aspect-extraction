@@ -1,30 +1,31 @@
-# Extração de Aspectos em Língua Portuguesa
+# Aspect Extraction in Portuguese
 
-Bem-vindo ao repositório de códigos, dados e notebooks relacionados à dissertação sobre "Extração de Aspectos em Língua Portuguesa". Este repositório contém todos os recursos necessários para entender e replicar as análises e resultados descritos na dissertação.
+Welcome to the repository of code, data, and notebooks related to the dissertation on "Aspect Extraction in Portuguese Language". This repository contains all the necessary resources to understand and replicate the analyses and results described in the dissertation.
 
 
-# 📖 Descrição
-O trabalho se concentra na análise e extração de aspectos em textos escritos em língua portuguesa. Os aspectos, em processamento de linguagem natural, são os pontos específicos ou características de um produto ou serviço que são mencionados em análises ou comentários.
+# 📖 Description
 
-# 📁 Estrutura do Repositório
+The work focuses on the analysis and extraction of aspects in texts written in the Portuguese language. Aspects, in natural language processing, are the specific points or characteristics of a product or service that are mentioned in reviews or comments.
 
-- `corpus/`: Coleção de textos utilizados para pré-treinar os modelos.
-- `datasets/`: Conjuntos de dados estruturados usados no trabalho. Podem incluir dados brutos, pré-processados e estratificados.
-- `notebooks/`: Jupyter notebooks contendo análises exploratórias, experimentos e visualizações relacionadas à pesquisa.
-- `others/`: Outros recursos e arquivos auxiliares que não se encaixam diretamente nas categorias anteriores.
-- `results/`: Resultados dos experimentos.
-- `LICENSE`: Licença sob a qual os recursos deste repositório são distribuídos.
-- `requeriments.txt`: Lista de bibliotecas e dependências necessárias para executar os códigos e notebooks.
+# 📁 Repository Structure
 
-# ⚙️ Instalação e Uso
+- `corpus/`: Collection of texts used to pre-train the models.
+- `datasets/`: Structured datasets used in the work. May include raw, pre-processed, and stratified data.
+- `notebooks/`: Jupyter notebooks containing exploratory analyses, experiments, and visualizations related to the research.
+- `others/`: Other resources and auxiliary files that do not directly fit into the above categories.
+- `results/`: Results of the experiments.
+- `LICENSE`: The license under which the resources of this repository are distributed.
+- `requeriments.txt`: List of libraries and dependencies needed to run the codes and notebooks.
 
-1. Clone o Repositório:
+# ⚙️ Installation and Use
+
+1. Clone the Repository:
 
 ```bash
 git clone git@github.com:jcfneto/aspect-extraction.git
 ```
 
-2. Instale as Dependências:
+2. Install the Dependencies:
 
 Navegue até o diretório do repositório e instale as dependências usando pip:
 
@@ -33,28 +34,28 @@ cd aspect-extraction
 pip install -r requeriments.txt
 ```
 
-3. Navegue pelos Notebooks:
+3. Navigate Through the Notebooks:
 
-Use um ambiente Jupyter para explorar e executar os notebooks no diretório `notebooks/`.
+Use a Jupyter environment to explore and execute the notebooks in the `notebooks/` directory.
 
-# 📜 Licença
+# 📜 License
 
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+This project is under the MIT license. See the LICENSE file for more details.
 
 # 📌 Citação
 
 Se você utilizar recursos deste repositório em sua pesquisa, considere citar a seguinte referência:
 
 ```bibtex
-# Atualizar ao final do projeto
-@misc{josecarlos2023extracao,
+@mastersthesis{Ferreira2023Extracao,
   title={Desenvolvimento de modelos de Linguagem para Extração de Aspectos em Língua Portuguesa},
   author={Ferreira, José Carlos Neto},
   year={2023},
-  url={https://[https://github.com/jcfneto/aspect-extraction]}
+  school={Universidade Federal de Lavras},
+  url={https://github.com/jcfneto/aspect-extraction}
 }
 ```
 
 # 📮 Contato
 
-Para dúvidas ou sugestões, sinta-se à vontade para abrir uma issue ou entrar em contato pelo e-mail: eng.jcfneto@email.com.
+For questions or suggestions, feel free to open an issue or contact via email at: eng.jcfneto@email.com.
