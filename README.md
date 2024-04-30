@@ -44,7 +44,7 @@ This project is under the MIT license. See the LICENSE file for more details.
 
 # 📌 Citação
 
-Se você utilizar recursos deste repositório em sua pesquisa, considere citar a seguinte referência:
+If you use resources from this repository in your research, please consider citing the following reference:
 
 ```bibtex
 @mastersthesis{Ferreira2023Extracao,
