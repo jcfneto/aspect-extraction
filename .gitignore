@@ -140,6 +140,10 @@ others/*
 /corpus/minha_vida_literaria/*.txt
 /corpus/tv/*.txt
 /corpus/tv/*.csv
+/corpus/preprocessed/*.csv
+/corpus/preprocessed/*.txt
+/corpus/tv_reviews/*.csv
+/corpus/tv_reviews/*.txt
 
 # notebooks
 notebooks/*.csv
