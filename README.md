@@ -1,63 +1,64 @@
-# Extração de Aspectos em Língua Portuguesa
+# Approaches based on language models for aspect extraction for sentiment analysis in the Portuguese language
 
-Bem-vindo ao repositório de códigos, dados e notebooks relacionados à dissertação sobre "Extração de Aspectos em Língua Portuguesa". Este repositório contém todos os recursos necessários para entender e replicar as análises e resultados descritos na dissertação.
+Welcome to the repository of code, data, and notebooks related to the dissertation on "Aspect Extraction in Portuguese Language" and the article "Approaches based on language models for aspect extraction for sentiment analysis in the Portuguese language". This repository contains all the resources needed to understand and replicate the analyses and results described in the dissertation.
 
 <img src="https://github.com/jcfneto/aspect-extraction/assets/70823158/d018e8f3-06df-45d0-9cec-51e1765e53af" width=400 height=400>
 
-Imagem gerada pelo ChatGPT com DALL-E da OpenAI.
+# 📖 Description
 
-# 📖 Descrição
-O trabalho se concentra na análise e extração de aspectos em textos escritos em língua portuguesa. Os aspectos, em processamento de linguagem natural, são os pontos específicos ou características de um produto ou serviço que são mencionados em análises ou comentários.
+The work focuses on the analysis and extraction of aspects in texts written in Portuguese. In natural language processing, aspects refer to a product or service's specific points or features mentioned in reviews or comments.
 
-# 📁 Estrutura do Repositório
+# 📁 Repository Structure
 
-- `corpus/`: Coleção de textos utilizados para pré-treinar os modelos.
-- `datasets/`: Conjuntos de dados estruturados usados no trabalho. Podem incluir dados brutos, pré-processados e estratificados.
-- `notebooks/`: Jupyter notebooks contendo análises exploratórias, experimentos e visualizações relacionadas à pesquisa.
-- `others/`: Outros recursos e arquivos auxiliares que não se encaixam diretamente nas categorias anteriores.
-- `results/`: Resultados dos experimentos.
-- `LICENSE`: Licença sob a qual os recursos deste repositório são distribuídos.
-- `requeriments.txt`: Lista de bibliotecas e dependências necessárias para executar os códigos e notebooks.
+- `corpus/`: Collection of texts used to pre-train the models.
+- `datasets/`: Structured datasets used in the work, which may include raw, pre-processed, and stratified data.
+- `notebooks/`: Jupyter notebooks containing exploratory analyses, experiments, and visualizations related to the research.
+- `others/`: Other resources and auxiliary files that do not fit directly into the previous categories.
+- `results/`: Results of the experiments.
+- `LICENSE`: License under which the resources of this repository are distributed.
+- `requeriments.txt`: List of libraries and dependencies required to run the codes and notebooks.
 
-# ⚙️ Instalação e Uso
 
-1. Clone o Repositório:
+# ⚙️ Installation and Usage
+
+1. Clone the Repository:
 
 ```bash
 git clone git@github.com:jcfneto/aspect-extraction.git
 ```
 
-2. Instale as Dependências:
+2. Install Dependencies:
 
-Navegue até o diretório do repositório e instale as dependências usando pip:
+Navigate to the repository directory and install the dependencies using pip:
 
 ```bash
 cd aspect-extraction
 pip install -r requeriments.txt
 ```
 
-3. Navegue pelos Notebooks:
+3. Browse the Notebooks:
 
-Use um ambiente Jupyter para explorar e executar os notebooks no diretório `notebooks/`.
+Use a Jupyter environment to explore and run the notebooks in the `notebooks/` directory.
 
-# 📜 Licença
+# 📜 License
 
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-# 📌 Citação
+# 📌 Citation
 
-Se você utilizar recursos deste repositório em sua pesquisa, considere citar a seguinte referência:
+If you use resources from this repository in your research, please consider citing the following references:
 
 ```bibtex
-# Atualizar ao final do projeto
-@misc{josecarlos2023extracao,
-  title={Desenvolvimento de modelos de Linguagem para Extração de Aspectos em Língua Portuguesa},
-  author={Ferreira, José Carlos Neto},
-  year={2023},
-  url={https://[https://github.com/jcfneto/aspect-extraction]}
+@article{neto2024approaches,
+  title={Approaches based on language models for aspect extraction for sentiment analysis in the Portuguese language},
+  author={Neto, Jos{\'e} Carlos Ferreira and Pereira, Denilson Alves and Barbosa, Bruno Henrique Groenner and Ferreira, Danton Diego},
+  journal={Neural Computing and Applications},
+  pages={1--11},
+  year={2024},
+  publisher={Springer}
 }
 ```
 
-# 📮 Contato
+# 📮 Contact
 
-Para dúvidas ou sugestões, sinta-se à vontade para abrir uma issue ou entrar em contato pelo e-mail: eng.jcfneto@email.com.
+For questions or suggestions, please get in touch with us via email: eng.jcfneto@email.com.
