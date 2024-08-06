@@ -1,10 +1,6 @@
 # TV
 
-Este conjunto de dados foi coletado e anotado pelos autores do trabalho 
-(CARDOSO; PEREIRA, 2020) e contém revisões de usuários sobre um modelo de 
-televisão. O conjunto conta com marcações dos aspectos explícitos e implícitos,
-bem como as marcações de opinião referente a estes aspectos. A seguir, um 
-exemplo de revisão presente no conjunto:
+This dataset was collected and annotated by the authors of the work (CARDOSO; PEREIRA, 2020) and contains user reviews about a TV model. The dataset includes explicit and implicit aspects and opinion markings regarding these aspects. Below is an example of a review present in the dataset:
 
 ```json
         {
@@ -20,15 +16,12 @@ exemplo de revisão presente no conjunto:
         }
 ```
 
-Ao todo, o conjunto conta com 1.091 revisões, 989 destas com pelo menos um 
-aspecto explícito.
+The dataset contains 1,091 reviews, 989 of which have at least one explicit aspect.
+
 
 # ReLi
 
-O ReLi (Freitas et al., 2012) é um conjunto de dados de resenhas de livros de 7
-autores diferentes. Além das marcações de aspectos, o conjunto conta com as 
-informações de POS (Part of Speech), opinião e polaridade. A seguir, um exemplo
-de revisão presente no conjunto:
+The ReLi (Freitas et al., 2012) is a dataset of book reviews from 7 different authors. In addition to aspect markings, the dataset includes POS (Part of Speech) information, opinion, and polarity. Below is an example of a review present in the dataset:
 
 ```json
         {
@@ -40,15 +33,13 @@ de revisão presente no conjunto:
         }
 ```
 
-Ao todo, o conjunto conta co 1.600 resenhas e 12.470 sentenças.
+In total, the dataset contains 1,600 reviews and 12,470 sentences.
 
 # Processed
 
-As revisões do conjunto foram pré-processadas para o formato ideal de entrada
-para os modelos de linguagem.
+The reviews in the dataset have been pre-processed into the ideal input format for language models.
 
-O atributo `aspect_tags` a seguir corresponde ao padrão IOB2. A seguir a 
-correspondência:
+The `aspect_tags` attribute corresponds to the IOB2 pattern. The mapping is as follows:
 
 ```python
 tag_to_id = {
@@ -60,7 +51,7 @@ tag_to_id = {
 
 ##### TV
 
-As revisões do conjunto TV ficaram com o seguinte formato:
+The reviews in the TV dataset are formatted as follows:
 
 ```json
         {
@@ -72,8 +63,7 @@ As revisões do conjunto TV ficaram com o seguinte formato:
 
 ##### ReLi
 
-Análogo ao conjunto TV, as revisões do conjunto ReLi ficaram com o seguinte
-formato:
+Similar to the TV dataset, the reviews in the ReLi dataset are formatted as follows:
 
 ```json
         {
@@ -84,15 +74,8 @@ formato:
 
 # Statified
 
-Os conjuntos foram divididos em 10 folds, buscando manter a proporção do 
-conjunto de dados originais. As estatísticas de cada um dos conjuntos podem ser
-vistas no diretório `notebooks/data_stats`.
+The datasets have been divided into 10 folds, maintaining the proportion of the original datasets. The statistics of each set can be found in the `notebooks/data_stats` directory.
 
-No caso do `TV`, cada registro trata-se de uma revisão, no caso do `ReLi` cada 
-registro é umas sentença de uma resenha, por conta disso, as sentenças de uma
-mesma resenha se encontram em um mesmo fold.
+In the case of the `TV` dataset, each record is a review, whereas in the ReLi dataset, each record is a sentence from a review. Thus, the sentences from the same review are found in the same fold.
 
-No `ReLi` existiam sentenças com apenas um único token com os seguintes
-caracteres `{'"', ')', '*', '.', '3', '>', '?', ']', 'x'}`. Estes foram 
-removidos do conjunto. Portanto, das métricas originais, ficamos com 1.598
-resenhas e 12.429 sentenças.
+In the ReLi dataset, there were sentences with only a single token consisting of the following characters: `{'"', ')', '*', '.', '3', '>', '?', ']', 'x'}`. These were removed from the dataset. Therefore, from the original metrics, we are left with 1,598 reviews and 12,429 sentences.
