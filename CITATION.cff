@@ -1,8 +1,23 @@
-@article{neto2024approaches,
-  title={Approaches based on language models for aspect extraction for sentiment analysis in the Portuguese language},
-  author={Neto, Jos{\'e} Carlos Ferreira and Pereira, Denilson Alves and Barbosa, Bruno Henrique Groenner and Ferreira, Danton Diego},
-  journal={Neural Computing and Applications},
-  pages={1--11},
-  year={2024},
-  publisher={Springer}
-}
+cff-version: 1.2.0
+message: If you use this work in your research, please cite it using the following metadata
+title: Approaches based on language models for aspect extraction for sentiment analysis in the Portuguese language
+authors:
+- family-names: Neto
+  given-names: José Carlos Ferreira
+- family-names: Pereira
+  given-names: Denilson Alves
+- family-names: Barbosa
+  given-names: Bruno Henrique Groenner
+- family-names: Ferreira
+  given-names: Danton Diego
+journal: Neural Computing and Applications
+pages: 1--11
+year: 2024
+publisher: Springer
+doi: 10.1007/s00521-024-07665-0  # Substitua pelo DOI correto se houver
+keywords:
+- language models
+- aspect extraction
+- sentiment analysis
+- Portuguese language
+- natural language processing
