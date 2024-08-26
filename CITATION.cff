@@ -14,10 +14,28 @@ journal: Neural Computing and Applications
 pages: 1--11
 year: 2024
 publisher: Springer
-doi: 10.1007/s00521-024-07665-0  # Substitua pelo DOI correto se houver
+doi: 10.1007/s00521-024-10265-4
 keywords:
 - language models
 - aspect extraction
 - sentiment analysis
 - Portuguese language
 - natural language processing
+preferred-citation:
+  type: article
+  title: Approaches based on language models for aspect extraction for sentiment analysis in the Portuguese language
+  authors:
+  - family-names: Neto
+    given-names: José Carlos Ferreira
+  - family-names: Pereira
+    given-names: Denilson Alves
+  - family-names: Barbosa
+    given-names: Bruno Henrique Groenner
+  - family-names: Ferreira
+    given-names: Danton Diego
+  journal: Neural Computing and Applications
+  pages: 1--11
+  year: 2024
+  publisher: Springer
+  doi: 10.1007/s00521-024-10265-4
+  url: https://link.springer.com/article/10.1007/s00521-024-10265-4
